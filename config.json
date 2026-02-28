@@ -1,0 +1,8 @@
+require('dotenv').config();
+
+module.exports = {
+    token: process.env.DISCORD_TOKEN,
+    twitchClientId: process.env.TWITCH_CLIENT_ID,
+    twitchClientSecret: process.env.TWITCH_CLIENT_SECRET,
+    clientId: process.env.CLIENT_ID
+};
